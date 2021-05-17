@@ -47,5 +47,4 @@ try:
 		time.sleep(1)
 
 except KeyboardInterrupt:
-	GPIO.output(PIN_BUZZER, GPIO.LOW)
 	GPIO.cleanup()
